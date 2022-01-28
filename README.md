@@ -1,6 +1,6 @@
 # company-it-logger
 
-> React app to track company's IT department tasks and issues. Uses JSON-Server as a mock backend.
+> React and Redux app to track company's IT department tasks and issues. Uses JSON-Server as a mock backend.
 
 ## Usage
 
