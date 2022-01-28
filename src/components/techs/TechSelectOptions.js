@@ -26,7 +26,7 @@ TechSelectOptions.PropTypes = {
 }
 
 const mapStateToProps = state => ({
-  tech: state.tech
+  tech: state.techStateThroughReducer
 });
 
 export default connect(mapStateToProps, { getTechs })(TechSelectOptions);

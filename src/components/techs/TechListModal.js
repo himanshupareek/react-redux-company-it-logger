@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import TechItem from './TechItem';
 import { getTechs } from '../../actions/techActions';
 
-const TechListModal = ({ getTechs, tech: { techs, loading } }) => {
+const TechListModal = ({ getTechs, techUseAsParam: { techs, loading } }) => {
 
   useEffect(() => {
     getTechs();
@@ -37,7 +37,8 @@ TechListModal.propTypes = {
 
 function mapStateToProps(state) {
   return {
-    tech: state.tech
+    // tech: state.tech,
+    techUseAsParam: state.techStateThroughReducer
   };
 }
 
