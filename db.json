@@ -1,0 +1,73 @@
+{
+  "logs": [
+    {
+      "message": "Bitbucket credentials requied",
+      "attention": false,
+      "tech": "Anil Kumar Khichar",
+      "date": "2022-01-21T15:46:10.179Z",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "message": "Laptop heating so badly",
+      "attention": true,
+      "tech": "Vipin Pareek",
+      "date": "2022-01-22T16:18:04.245Z"
+    },
+    {
+      "message": "Screen Broken",
+      "attention": true,
+      "tech": "Gopal Saini",
+      "date": "2022-01-23T15:46:10.179Z",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "message": "Charging issue",
+      "attention": false,
+      "tech": "Pramod Sharma",
+      "date": "2022-01-24T16:18:04.245Z"
+    },
+    {
+      "id": 5,
+      "message": "Connectivity issue",
+      "attention": true,
+      "tech": "Himanshu Pareek",
+      "date": "2022-01-24T16:18:04.245Z"
+    },
+    {
+      "message": "Network problem",
+      "attention": true,
+      "tech": "Himanshu Pareek",
+      "date": "2022-01-28T17:17:37.908Z",
+      "id": 6
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "Himanshu",
+      "lastName": "Pareek"
+    },
+    {
+      "id": 2,
+      "firstName": "Anil Kumar",
+      "lastName": "Khichar"
+    },
+    {
+      "id": 3,
+      "firstName": "Gopal",
+      "lastName": "Saini"
+    },
+    {
+      "id": 4,
+      "firstName": "Pramod",
+      "lastName": "Sharma"
+    },
+    {
+      "id": 5,
+      "firstName": "Vipin",
+      "lastName": "Pareek"
+    }
+  ]
+}
